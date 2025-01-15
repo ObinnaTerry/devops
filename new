@@ -1,0 +1,17 @@
+public class HelloWorld {
+
+    // Entry point of the program
+    public static void main(String[] args) {
+        // Print a welcome message
+        System.out.println("Hello, World!");
+
+        // Call a method to perform addition
+        int result = addNumbers(5, 10);
+        System.out.println("The sum of 5 and 10 is: " + result);
+    }
+
+    // Method to add two numbers
+    public static int addNumbers(int a, int b) {
+        return a + b;
+    }
+}
